@@ -1,4 +1,4 @@
-## 文本多标签分类  Kaggle : Toxic Comment Classification Challenge（2018.01-2018.03）
+## 文本多标签分类 (Kaggle : Toxic Comment Classification Challenge)
 
 本项目对来自Wikipedia’s talk页面的评论数据集建立一个多标签识别模型，识别恶意评论的类别，比如威胁，侮辱，身份歧视等，使得用户可以选择某类感兴趣的评论。
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
@@ -9,4 +9,4 @@ https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 +	模型框架是 Embedding + Dropout + Bi-GRU + Pooling(average pooling + max Pooling) + Fully connected。
 
 
-模型的AUC Score为0.9862。
++ 模型的AUC Score为0.9862。
